@@ -9,7 +9,7 @@ library("SnowballC")
 library("wordcloud")
 library("RColorBrewer")
 
-jm_read <- read.csv(file = 'detect_phrases.csv')
+jm_read <- read.csv(file = 'sharing_is_caring.csv')
 
 docs <- Corpus(VectorSource(jm_read))
 inspect(docs)
