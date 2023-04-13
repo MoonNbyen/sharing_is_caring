@@ -3,22 +3,24 @@ Focus on hate speech towards the Black community
 Evolution of Hate Speech on Twitter since Elon Musk ’s Acquisition 
 Focus on hate speech towards the Black community
 
-Context and background
+## Context and background
 
 Elon Musk has been described as a free-speech absolutist. His chaotic takeover of Twitter has led to fear among users and politicians horrified by the prospect of Twitter amplifying the most radical online voices. Indeed, Elon Musk since his Twitter acquisition has reactivated a series of controversial accounts and has laid off a big percentage of the platform’s content moderation staff (CBS, 2022). According to a former content-moderation expert who worked for Twitter, 3,000 contract workers were fired  during one night in November 2022. Apart from that, Elon Musk decided to unblock nearly 12,000 accounts that are related to racist, anti-semetic, misogynistic and transphobic comments. Some of them include Donald Trump, Andrew Anglin - a 38 year old nazi activist, and Carl Benjamin - an islamophobic theorist and well known gamer (Audureau and Leloup, 2022).  At the same time, multiple studies have found that hate speech has augmented on Twitter since his acquisition with him claiming the exact opposite.
  
-Literature Reviews
+## Literature Reviews
 Many researchers have identified an association between the increase of hateful content on Twitter and Elon Musk’s acquisition. For instance, a study conducted by Montclair State University collected Twitter data from Oct. 22nd to Oct. 28th, 2022 with the Tweetbinder analytics program and examined the frequency of use of multiple slurs targeting race, ethnicity and sexual orientation (Benton et al., 2022). The researchers concluded that there was an immediate spike in the number of tweets mentioning one or more of the analyzed hate terms immediately before the acquisition took place. Furthermore, using Tweetbinder’s sentiment analysis tool, the researchers found that 67.2 percent of the tweets mentioning these hate terms have a negative tone. Similarly, the Center for Countering Digital Hate suggested that the volume of tweets and retweets mentioning various slurs spiked during the first full week under Elon Musk’s ownership (Ortiz, 2022). Despite their findings, these researchers didn’t attempt to analyze the context in which the hateful terms were used. They primarily focused on the number of times that various slurs were mentioned, but tweets that contain slurs should not be classified as hate speech if they don’t express hatred towards a group or an individual based on race, sexual orientation etc. It is thus necessary to delve into hate speech detection which will help investigate whether there is truly a rise of hate speech on Twitter associated with Elon Musk’s acquisition. In addition, at the Morgan Stanley Tech, Media and Telecommunications Conference in March 2023, Elon Musk claimed that hate speech on Twitter has decreased by 50% from when he took over the platform as a result of defeating hate bots (see figure below). The contradiction of research findings and Elon Musk’s statement makes it particularly interesting to examine whether hate speech on Twitter has really been on the rise since the acquisition.
 
 
 
-Research question
+## Research question
 
 Our project aims to put the previous findings to the test. It is important to underline that we decided to revise our initial research question and make it more specific. Initially, we wanted to conduct a comprehensive investigation into hate speech towards black people on Twitter following Elon Musk’s acquisition but then we decided to focus on a specific slur that best embodies racism towards black people, as we will discuss  in the data section. Our new research question is: Has the amount of hate speech that contains the racist slur “n*gger(s)’’ increased after Elon Musk’s Twitter takeover? In that way, we can delve into how the usage of this specific slur as hate speech has evolved in relation to Elon Musk’s takeover.
-Data
+
+## Data
 
 Our data is based on tweets containing the n-word. We tried to collect tweets that contain this keyword written in more than 10 different ways and observe how the trend evolved. However, during the research, we found that some of them, especially the slur “n*gga’’ is used positively and as an empowerment term in the black community. This is why we decided to focus on the infamous racist slur “n*gger(s).’’ That helped us to quantify hate speech more effectively since it is known that it is predominately used negatively. We used the other variations of the n-word (i.e. niggar OR niggur OR nigor OR nigre OR nigar OR nigga OR niggah OR nigguh OR niglet OR nigglet OR nigra  OR niggra OR nigrah OR nigruh OR niggars OR niggurs  OR nigors OR nigres OR nigars OR niggas OR niggahs OR nigguhs OR niglets OR nigglets OR nigras  OR niggras OR nigrahs OR nigruhs) as a proxy of the overall number of tweets. We  wanted to make sure that any increase of hate speech is not due to an increase in the overall number of tweets. Apart from that, we decided to analyze a limited time span of 12 days when it comes to word count for the n-word (23/10/2022-11/04/2022). Also, our time span for the text clarification model was set to 8 days (10/23/2022-10/30/2022). The reason behind the decision for the limited time span was the difficulty of uploading a really big file to Github. 
-Empirical Strategy
+
+## Empirical Strategy
 
 Data Collection: Data was collected using the Twitter Explorer Collector. The collected tweets were filtered “n*ggers” OR “n*gger” to include tweets related to hate speech against black people.
 Pre-processing: Pre-processed the text data by removing stop words, punctuation, unnecessary symbols, and URLs to clean up the text data.
@@ -34,7 +36,7 @@ Support Vector Classifier (SVC) was used to detect hate speech against black peo
 
 
 
-Main Findings
+## Main Findings
 
 Number of tweets using N-words
 
@@ -65,7 +67,7 @@ We ran a sentiment analysis to get a sense of how the slur “n*gger(s)” was u
 
 
 
-Train Hate Speech Models
+## Train Hate Speech Models
 
 As we understand that slurs are not always used as hate speech, we delve into hate speech detection by using the two models below.
 
@@ -100,16 +102,17 @@ Compared to the SVC model, our trained model shows a more moderate increase in n
 
 
 
-Conclusion
+## Conclusion
 
 Our research question was: Has the amount of hate speech that contains the racist slur “n*gger(s)’’ increased after Elon Musk’s Twitter takeover (10/27/2022)? Our hypothesis was that yes, it has increased after the acquisition.  
 Our results show that based on the word count, the frequency of use of “n*gger(s)” has increased right after the acquisition and spiked 3 days later, and gradually decreased but remained higher than pre-acquisition. Based on our trained model, use in a hateful way increased moderately right after the acquisition, spiked 2 days later, and then slightly decreased. On the other hand, use in a non-hateful way increased at a lesser extent during those 2 days, but experienced a surge on October 30th. Thus, we can validate that overall there was an increase in the frequency of use of “n*gger(s)”. However, we cannot conclude that there is a massive increase in the n-word being used as hate speech after the acquisition. Additionally, it’s important to note that the relationships we observed here are only correlational. We cannot conclude that Elon Musk’s reinstatement of banned accounts and layoff of content moderation staff led to the increased frequency of “n*gger(s)” and more hate speech. 
 Lastly, we realized through our analysis that merely counting how many times the slurs are used, as done in several recent scientific and academic research on this topic, is not sufficient for hate speech detection. The results of our trained model show that it is crucial to understand in which context the n-word is being used, as it is not always used in a hateful manner. The method of quantifying hate speech employed by the Twitter team is unclear, but this methodological difference in hate speech detection may be a cause of the contradiction between the academic researchers and Elon Musk. 
-Limitations
+
+## Limitations
 
 Due to the time constraints, we only investigated the use of n-word on Twitter. Future studies should broaden the scope of research by examining other slurs that target the Black community as well as other minority groups. Also, we initially hoped to retrieve the total number of tweets posted each day to make sure that the increase of hate speech is not due to an increase in the overall number of tweets. However, Twitter doesn’t allow us to retrieve these numbers. Moreover, we only annotated tweets written in English, as we wanted to be sure that we understood the content of the tweets. However, the final collection of all the tweets that mentions “n*gger(s)'' contains multiple languages, as Twitter explorer collector doesn’t have a language filter. It was also difficult to differentiate between hate speech and non-hate speech in the annotation process without enough context and account information, which led to many blanks and possible interpretation errors. Initially, we intended to examine the amount of hate speech one month prior to and after the acquisition. However, because of the enormous amount of tweets and the high level of difficulty of analyzing them, we had to narrow the timespan to 8 days. The free GPU usage limit also reduced our capacity to train the BERT model. 
 
-Bibliography
+## Bibliography
 
 Audureau, W., Leloup D. (2022) Conspiracy theorists, homophobes, neo-Nazis: Ten accounts that embody Twitter's change under Musk, Le Monde, Available at: https://www.lemonde.fr/en/les-decodeurs/article/2022/12/19/conspiracy-theorists-homophobes-neo-nazis-ten-accounts-that-embody-twitter-s-change-under-elon-musk_6008352_8.html 
 
