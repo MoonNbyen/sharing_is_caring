@@ -6,7 +6,7 @@
 
 
 
-## Here is my latest project related with detecting hate speech towards black people. In this group project,my role is coding the whole project. I have several project but I cannot share publicly. 
+## Here is my latest project related with detecting hate speech towards black people. In this group project,my role is coding the whole project. I have several projects but I cannot share publicly. 
 
 # Evolution of Hate Speech on Twitter since Elon Musk ’s Acquisition 
 Focus on hate speech towards the Black community
