@@ -2,7 +2,7 @@
 # Evolution of Hate Speech on Twitter since Elon Musk ’s Acquisition 
 Focus on hate speech towards the Black community
 
-Code:
+Code: https://github.com/MoonNbyen/sharing_is_caring/blob/main/HateSpeechAgainstBlack.ipynb
 
 ## Context and background
 
