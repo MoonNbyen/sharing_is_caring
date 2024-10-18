@@ -2,6 +2,8 @@
 # Evolution of Hate Speech on Twitter since Elon Musk ’s Acquisition 
 Focus on hate speech towards the Black community
 
+Code:
+
 ## Context and background
 
 Elon Musk has been described as a free-speech absolutist. His chaotic takeover of Twitter has led to fear among users and politicians horrified by the prospect of Twitter amplifying the most radical online voices. Indeed, Elon Musk since his Twitter acquisition has reactivated a series of controversial accounts and has laid off a big percentage of the platform’s content moderation staff (CBS, 2022). According to a former content-moderation expert who worked for Twitter, 3,000 contract workers were fired  during one night in November 2022. Apart from that, Elon Musk decided to unblock nearly 12,000 accounts that are related to racist, anti-semetic, misogynistic and transphobic comments. Some of them include Donald Trump, Andrew Anglin - a 38 year old nazi activist, and Carl Benjamin - an islamophobic theorist and well known gamer (Audureau and Leloup, 2022).  At the same time, multiple studies have found that hate speech has augmented on Twitter since his acquisition with him claiming the exact opposite.
