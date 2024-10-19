@@ -1,13 +1,3 @@
-# 1. MySQL project code: https://github.com/MoonNbyen/Pizza_Shop
-# 2. Cloud Computing with R, Code: https://medium.com/@ja_seng-moon/aws-comprehend-translate-with-r-to-analyze-an-article-3cb446c293a4
-# 3. Data Analysis with R, Code: https://github.com/MoonNbyen/R-Final-Assignment/blob/main/R_Final_Assignment_code
-# 4. Natural Processing Language project code:https://medium.com/@ja_seng-moon/text-similarity-analysis-on-speeches-by-us-senators-cc17225687dd
-# 5. Hate Speech detection project code: https://github.com/MoonNbyen/sharing_is_caring/blob/main/HateSpeechAgainstBlack.ipynb
-
-
-
-## Here is my latest project related with detecting hate speech towards black people. In this group project,my role is coding the whole project. I have several projects but I cannot share publicly. 
-
 # Evolution of Hate Speech on Twitter since Elon Musk ’s Acquisition 
 Focus on hate speech towards the Black community
 
