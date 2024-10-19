@@ -1,3 +1,6 @@
+# This project is a collaboration between Sciences Po and Central European University, and I have been responsible for managing all aspects of the coding for this assignment.
+## Link to code https://github.com/MoonNbyen/sharing_is_caring/blob/main/HateSpeechAgainstBlack.ipynb
+
 # Evolution of Hate Speech on Twitter since Elon Musk ’s Acquisition 
 Focus on hate speech towards the Black community
 
